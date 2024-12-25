@@ -51,18 +51,17 @@ always @ (posedge clk)
 begin
 
    if(rst)
-   
      out<=0;
      
    else 
-   
      out <= out+1;
 end
 
 endmodule
 
-Developed by:S Lokeshwaran
-RegisterNumber:24901149
+Developed by: S Lokeshwaran
+
+RegisterNumber: 24901149
 
 **RTL LOGIC UP COUNTER**
 ![image](https://github.com/user-attachments/assets/808c3ba4-d7db-456a-bbfc-3a671aa09c92)
@@ -77,5 +76,5 @@ RegisterNumber:24901149
 
 
 **RESULTS**
-![image](https://github.com/user-attachments/assets/c4faeaff-5e67-454f-a4ae-0e1331e52f72)
+Hence implemented 4 bit synchronous up counter and validate functionality.
 
