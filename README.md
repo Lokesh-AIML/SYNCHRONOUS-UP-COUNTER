@@ -51,9 +51,11 @@ always @ (posedge clk)
 begin
 
    if(rst)
+   
      out<=0;
      
    else 
+   
      out <= out+1;
 end
 
@@ -76,5 +78,6 @@ RegisterNumber: 24901149
 
 
 **RESULTS**
+
 Hence implemented 4 bit synchronous up counter and validate functionality.
 
